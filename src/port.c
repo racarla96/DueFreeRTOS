@@ -634,7 +634,7 @@ __attribute__(( weak )) void vPortSetupTimerInterrupt( void )
 }
 /*-----------------------------------------------------------*/
 
-const int __attribute__((used)) uxTopUsedPriority = configMAX_PRIORITIES - 1;
+//const int __attribute__((used)) uxTopUsedPriority = configMAX_PRIORITIES - 1;
 
 #if( configASSERT_DEFINED == 1 )
 
